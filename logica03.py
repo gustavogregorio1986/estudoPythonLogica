@@ -7,7 +7,7 @@ while True:
         break
 
     try:
-        numero = float(entrada)  3
+        numero = float(entrada)  
         numeros.append(numero)
     except ValueError:
         print("Por favor, insira um número válido.")
